@@ -1,0 +1,3 @@
+project(ConcatenationOfArray)
+add_library(ConcatenationOfArray STATIC)
+target_sources(ConcatenationOfArray PRIVATE ConcatenationOfArray.cpp)
