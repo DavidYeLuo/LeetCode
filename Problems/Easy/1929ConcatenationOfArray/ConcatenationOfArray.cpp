@@ -1,4 +1,6 @@
 #include <vector>
+
+namespace Easy {
 class solution {
 public:
   std::vector<int> getConcatenation(std::vector<int> &nums) {
@@ -12,3 +14,4 @@ public:
     return nums;
   }
 };
+} // namespace Easy
