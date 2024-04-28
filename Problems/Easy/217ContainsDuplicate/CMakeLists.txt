@@ -1,0 +1,4 @@
+project(ContainsDuplicate)
+add_library(ContainsDuplicate STATIC)
+target_include_directories(ContainsDuplicate PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_sources(ContainsDuplicate PRIVATE ContainsDuplicate.cpp)

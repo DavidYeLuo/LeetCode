@@ -7,8 +7,6 @@ TEST(ConcatenationOfArray, SimpleTests) {
   for (int i = 0; i < testCases.size(); i++) {
     std::vector<int> nums = testCases[i][0];
     std::vector<int> expected = testCases[i][1];
-    std::cout << "expected: " << expected.size() << ", nums: " << nums.size()
-              << std::endl;
 
     Easy::ConcatenationOfArray coa;
     ASSERT_EQ(expected, coa.getConcatenation(nums));
