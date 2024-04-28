@@ -1,17 +1,15 @@
-#include <vector>
+#include "ConcatenationOfArray.h"
 
-namespace Easy {
-class solution {
-public:
-  std::vector<int> getConcatenation(std::vector<int> &nums) {
-    std::vector<int> res;
-    for (int i = 0; i < nums.size(); i++) {
-      res.push_back(nums[i]);
-    }
-    for (int i = 0; i < nums.size(); i++) {
-      res.push_back(nums[i]);
-    }
-    return nums;
+std::vector<int>
+Easy::ConcatenationOfArray::getConcatenation(std::vector<int> &nums) {
+  std::vector<int> res;
+  // Copy nums to res to avoid changing nums
+  for (int i = 0; i < nums.size(); i++) {
+    res.push_back(nums[i]);
   }
-};
-} // namespace Easy
+
+  for (int i = 0; i < nums.size(); i++) {
+    res.push_back(nums[i]);
+  }
+  return res;
+}
