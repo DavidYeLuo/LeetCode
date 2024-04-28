@@ -11,9 +11,9 @@ set(gtest_force_shared_crt
     CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-add_executable(LeetCodeTests)
-target_sources(LeetCodeTests PRIVATE SampleTest.cpp)
-target_link_libraries(LeetCodeTests PRIVATE GTest::gtest_main)
+# TESTS
+add_executable(LeetCodeTests 1929ConcatenationOfArrayTest.cpp)
+target_link_libraries(LeetCodeTests GTest::gtest_main ConcatenationOfArray)
 
 include(GoogleTest)
 gtest_discover_tests(LeetCodeTests)
