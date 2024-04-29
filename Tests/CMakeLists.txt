@@ -12,8 +12,8 @@ set(gtest_force_shared_crt
 FetchContent_MakeAvailable(googletest)
 
 # TESTS
-add_executable(LeetCodeTests 1929ConcatenationOfArrayTest.cpp
-                             217ContainsDuplicateTest.cpp)
+add_executable(LeetCodeTests ConcatenationOfArrayTest.cpp
+                             ContainsDuplicateTest.cpp)
 target_link_libraries(LeetCodeTests GTest::gtest_main easy)
 
 include(GoogleTest)
