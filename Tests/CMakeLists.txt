@@ -14,8 +14,7 @@ FetchContent_MakeAvailable(googletest)
 # TESTS
 add_executable(LeetCodeTests 1929ConcatenationOfArrayTest.cpp
                              217ContainsDuplicateTest.cpp)
-target_link_libraries(LeetCodeTests GTest::gtest_main ConcatenationOfArray
-                      ContainsDuplicate)
+target_link_libraries(LeetCodeTests GTest::gtest_main easy)
 
 include(GoogleTest)
 gtest_discover_tests(LeetCodeTests)

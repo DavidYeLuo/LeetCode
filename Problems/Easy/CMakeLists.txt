@@ -1,5 +1,7 @@
 project(easy)
 
-# Leetcode
-add_subdirectory(1929ConcatenationOfArray)
-add_subdirectory(217ContainsDuplicate)
+add_library(easy STATIC)
+target_include_directories(easy PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include/)
+target_sources(
+  easy PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src/ConcatenationOfArray.cpp
+               ${CMAKE_CURRENT_SOURCE_DIR}/src/ContainsDuplicate.cpp)
