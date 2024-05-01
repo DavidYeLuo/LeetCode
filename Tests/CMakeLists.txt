@@ -13,7 +13,7 @@ FetchContent_MakeAvailable(googletest)
 
 # TESTS
 add_executable(LeetCodeTests ConcatenationOfArrayTest.cpp
-                             ContainsDuplicateTest.cpp)
+                             ContainsDuplicateTest.cpp TwoSum.cpp)
 target_link_libraries(LeetCodeTests GTest::gtest_main easy)
 
 include(GoogleTest)
