@@ -1,4 +1,4 @@
-![Build Status](https://github.com/DavidYeLuo/LeetCode/actions/workflows/build.yml/badg.svg)
+![Build Status](https://github.com/DavidYeLuo/LeetCode/actions/workflows/test-leet-code.yml/badg.svg)
 # Work In Progress
 
 Trying to continue with my LeetCode journey in GitHub.
