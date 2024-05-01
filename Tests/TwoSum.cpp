@@ -6,13 +6,7 @@ struct Problem {
   std::vector<int> nums;
   int target;
   std::vector<int> answer;
-  // bool operator==(const Problem &other) {
-  //   return target == other.target && nums == other.nums &&
-  //          answer == other.answer;
-  // }
 };
-
-// TODO: Add init for problems
 
 std::vector<Problem> testCases;
 void init() {
