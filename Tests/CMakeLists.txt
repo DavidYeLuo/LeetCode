@@ -12,9 +12,10 @@ set(gtest_force_shared_crt
 FetchContent_MakeAvailable(googletest)
 
 # TESTS
-add_executable(LeetCodeTests ConcatenationOfArrayTest.cpp
-                             ContainsDuplicateTest.cpp TwoSum.cpp)
-target_link_libraries(LeetCodeTests GTest::gtest_main easy)
+add_executable(
+  LeetCodeTests ConcatenationOfArrayTest.cpp ContainsDuplicateTest.cpp
+                TwoSum.cpp LRUCacheTest.cpp)
+target_link_libraries(LeetCodeTests GTest::gtest_main easy medium)
 
 include(GoogleTest)
 gtest_discover_tests(LeetCodeTests)
