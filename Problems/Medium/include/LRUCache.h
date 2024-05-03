@@ -1,21 +1,22 @@
 #pragma once
-#include <map>
-#include <vector>
+#include <unordered_map>
 namespace Medium {
-struct Node {
+class Node {
+public:
   int key;
   int val;
   Node *next;
   Node *prev;
-  std::vector<int> refs;
+
+  Node(int key, int val);
 };
 class LRUCache {
 private:
-  std::map<int, Node *> m;
+  std::unordered_map<int, Node *> m;
   int capacity;
   Node *head;
   Node *tail;
-  void insert_head(Node *new_head);
+  void add_head(Node *new_head);
   void remove_node(Node *node);
 
 public:
