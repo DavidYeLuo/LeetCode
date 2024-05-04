@@ -44,10 +44,11 @@ void Medium::LRUCache::remove_node(Node *node) {
 
 // inserts it on the right of the Node
 void Medium::LRUCache::add_head(Node *new_head) {
-  new_head->next = head->next;
   new_head->prev = head;
-  head->prev = new_head;
-  head = new_head;
+  new_head->next = head->next;
+  head->next = new_head;
+  // Update next next
+  new_head->next->prev = new_head;
 }
 
 void Medium::LRUCache::put(int key, int value) {
