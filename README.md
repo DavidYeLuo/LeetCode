@@ -3,11 +3,8 @@
 
 Trying to continue with my LeetCode journey in GitHub.
 
-## Deps
-
-TODO
-* GoogleTest
-* C++ 11
+## Note
+Only have tested the project on Linux.
 
 ## Build
 
@@ -39,12 +36,17 @@ cd build/bin
 
 ## Easy
 
-| ID | Problems | Difficulty |
-|---|---|--- |
-| 1 | Two Sum | Easy |
-| 217 | Contains Duplicate | Easy |
-| 1929 | Concatenation of Array | Easy | 
+| ID | Problems |
+|---|---|
+| 1 | Two Sum |
+| 217 | Contains Duplicate |
+| 705 | Design HashSet |
+| 1929 | Concatenation of Array |
 
 ## Medium
+
+| ID | Problems |
+|---|---|
+| 146 | LRU Cache |
 
 ## Hard
