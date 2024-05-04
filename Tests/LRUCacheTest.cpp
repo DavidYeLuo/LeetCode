@@ -14,4 +14,12 @@ TEST(LRU, SimpleTests) {
   ASSERT_EQ(lRUCache.get(3), 3);  // return 3
   ASSERT_EQ(lRUCache.get(4), 4);  // return 4
 };
+TEST(LRU, SingleCache) {
+  Medium::LRUCache lRUCache(1);
+  lRUCache.put(2, 1);
+  ASSERT_EQ(lRUCache.get(2), 1); // Return 1
+  lRUCache.put(3, 2);
+  ASSERT_EQ(lRUCache.get(2), -1); // Return -1 (not found)
+  ASSERT_EQ(lRUCache.get(3), 2);  // Return 2
+}
 } // namespace
