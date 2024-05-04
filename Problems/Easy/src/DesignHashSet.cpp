@@ -1,21 +1,40 @@
 #include "DesignHashSet.h"
+Easy::Node::Node(int key) {
+  this->key = key;
+  next = nullptr;
+}
+Easy::DesignHashSet::DesignHashSet() {
+  v = std::vector<Node *>();
+  v.resize(HASH_SET_SIZE, new Node(-1));
+}
 void Easy::DesignHashSet::add(int key) {
-  if (contains(key))
-    return;
-  v.push_back(key);
-}
-bool Easy::DesignHashSet::contains(int key) {
-  for (int i = 0; i < v.size(); i++) {
-    if (v[i] == key)
-      return true;
-  };
-  return false;
-}
-void Easy::DesignHashSet::remove(int key) {
-  for (int i = 0; i < v.size(); i++) {
-    if (v[i] == key) {
-      v.erase(v.begin() + i);
+  Node *curr = v[key % HASH_SET_SIZE];
+  while (curr->next) {
+    curr = curr->next;
+    if (curr->key == key) {
       break;
     }
+  }
+  if (curr->key == key)
+    return;
+  curr->next = new Node(key);
+}
+bool Easy::DesignHashSet::contains(int key) {
+  Node *curr = v[key % HASH_SET_SIZE];
+  while (curr && curr->key != key) {
+    curr = curr->next;
+  }
+  return curr != nullptr;
+}
+void Easy::DesignHashSet::remove(int key) {
+  Node *curr = v[key % HASH_SET_SIZE];
+  while (curr->next) {
+    if (curr->next->key == key) {
+      Node *temp = curr->next;
+      curr->next = curr->next->next;
+      delete temp;
+      break;
+    }
+    curr = curr->next;
   }
 }
