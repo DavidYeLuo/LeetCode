@@ -36,18 +36,18 @@ cd build/bin
 
 ## Easy
 
-| ID | Problems |
-|---|---|
-| 1 | Two Sum |
-| 217 | Contains Duplicate |
-| 705 | Design HashSet |
-| 706 | Design HashMap |
-| 1929 | Concatenation of Array |
+| ID | Problems | Link |
+|---|---|---|
+| 1 | Two Sum | [Link](https://leetcode.com/problems/two-sum/description/) |
+| 217 | Contains Duplicate | [Link](https://leetcode.com/problems/contains-duplicate/description/) |
+| 705 | Design HashSet | [Link](https://leetcode.com/problems/design-hashset/description/) |
+| 706 | Design HashMap | [Link](https://leetcode.com/problems/design-hashmap/description/) |
+| 1929 | Concatenation of Array | [Link](https://leetcode.com/problems/concatenation-of-array/description/) |
 
 ## Medium
 
-| ID | Problems |
-|---|---|
-| 146 | LRU Cache |
+| ID | Problems | Link |
+|---|---|---|
+| 146 | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/description/) |
 
 ## Hard
