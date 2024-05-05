@@ -41,6 +41,7 @@ cd build/bin
 | 1 | Two Sum |
 | 217 | Contains Duplicate |
 | 705 | Design HashSet |
+| 706 | Design HashMap |
 | 1929 | Concatenation of Array |
 
 ## Medium
