@@ -12,19 +12,19 @@ void Easy::DesignHashSet::add(int key) {
   while (curr->next) {
     curr = curr->next;
     if (curr->key == key) {
-      break;
+      return;
     }
   }
-  if (curr->key == key)
-    return;
   curr->next = new Node(key);
 }
 bool Easy::DesignHashSet::contains(int key) {
   Node *curr = v[key % HASH_SET_SIZE];
-  while (curr && curr->key != key) {
+  while (curr->next) {
+    if (curr->next->key == key)
+      return true;
     curr = curr->next;
   }
-  return curr != nullptr;
+  return false;
 }
 void Easy::DesignHashSet::remove(int key) {
   Node *curr = v[key % HASH_SET_SIZE];
