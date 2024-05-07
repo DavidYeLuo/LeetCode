@@ -40,6 +40,7 @@ cd build/bin
 |---|---|---|
 | 1 | Two Sum | [Link](https://leetcode.com/problems/two-sum/description/) |
 | 217 | Contains Duplicate | [Link](https://leetcode.com/problems/contains-duplicate/description/) |
+| 303 | Range Sum Query - Immutable | [Link](leetcode.com/problems/range-sum-query-immutable)
 | 705 | Design HashSet | [Link](https://leetcode.com/problems/design-hashset/description/) |
 | 706 | Design HashMap | [Link](https://leetcode.com/problems/design-hashmap/description/) |
 | 1929 | Concatenation of Array | [Link](https://leetcode.com/problems/concatenation-of-array/description/) |
