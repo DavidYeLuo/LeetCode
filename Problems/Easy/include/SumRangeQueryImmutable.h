@@ -2,7 +2,7 @@
 namespace Easy {
 class SumRangeQueryImmutable {
 private:
-  std::vector<int> nums;
+  std::vector<int> prefix_sum;
 
 public:
   SumRangeQueryImmutable(std::vector<int> &nums);

@@ -1,12 +1,14 @@
 #include "SumRangeQueryImmutable.h"
 
 Easy::SumRangeQueryImmutable::SumRangeQueryImmutable(std::vector<int> &nums) {
-  this->nums = nums;
+  prefix_sum.resize(nums.size());
+  prefix_sum[0] = nums[0];
+  for (int i = 1; i < nums.size(); i++) {
+    prefix_sum[i] = prefix_sum[i - 1] + nums[i];
+  }
 };
 int Easy::SumRangeQueryImmutable::sumRange(int left, int right) {
-  int sum = 0;
-  for (int i = left; i <= right; i++) {
-    sum += nums[i];
-  }
-  return sum;
+  if (left == 0)
+    return prefix_sum[right];
+  return prefix_sum[right] - prefix_sum[left - 1];
 };
