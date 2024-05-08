@@ -50,5 +50,6 @@ cd build/bin
 | ID | Problems | Link |
 |---|---|---|
 | 146 | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/description/) |
+| 304 | Range Sum Query 2D - Immutable | [link](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)
 
 ## Hard

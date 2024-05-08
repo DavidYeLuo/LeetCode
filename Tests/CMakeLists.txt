@@ -20,7 +20,8 @@ add_executable(
   DesignHashSetTest.cpp
   LRUCacheTest.cpp
   DesignHashMapTest.cpp
-  SumRangeQueryImmutableTest.cpp)
+  SumRangeQueryImmutableTest.cpp
+  SumRangeQueryImmutableTwoDTest.cpp)
 target_link_libraries(LeetCodeTests GTest::gtest_main easy medium)
 
 include(GoogleTest)
