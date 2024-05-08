@@ -14,8 +14,13 @@ FetchContent_MakeAvailable(googletest)
 # TESTS
 add_executable(
   LeetCodeTests
-  ConcatenationOfArrayTest.cpp ContainsDuplicateTest.cpp TwoSum.cpp
-  DesignHashSetTest.cpp LRUCacheTest.cpp DesignHashMapTest.cpp)
+  ConcatenationOfArrayTest.cpp
+  ContainsDuplicateTest.cpp
+  TwoSum.cpp
+  DesignHashSetTest.cpp
+  LRUCacheTest.cpp
+  DesignHashMapTest.cpp
+  SumRangeQueryImmutableTest.cpp)
 target_link_libraries(LeetCodeTests GTest::gtest_main easy medium)
 
 include(GoogleTest)
