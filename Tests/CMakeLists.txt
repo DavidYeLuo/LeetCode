@@ -21,7 +21,8 @@ add_executable(
   LRUCacheTest.cpp
   DesignHashMapTest.cpp
   SumRangeQueryImmutableTest.cpp
-  SumRangeQueryImmutableTwoDTest.cpp)
+  SumRangeQueryImmutableTwoDTest.cpp
+  FindPivotIndexTest.cpp)
 target_link_libraries(LeetCodeTests GTest::gtest_main easy medium)
 
 include(GoogleTest)
