@@ -43,6 +43,7 @@ cd build/bin
 | 303 | Range Sum Query - Immutable | [Link](leetcode.com/problems/range-sum-query-immutable)
 | 705 | Design HashSet | [Link](https://leetcode.com/problems/design-hashset/description/) |
 | 706 | Design HashMap | [Link](https://leetcode.com/problems/design-hashmap/description/) |
+| 724 | Find Pivot Index | [Link](https://leetcode.com/problems/find-pivot-index/description/) |
 | 1929 | Concatenation of Array | [Link](https://leetcode.com/problems/concatenation-of-array/description/) |
 
 ## Medium
