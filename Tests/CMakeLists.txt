@@ -22,7 +22,8 @@ add_executable(
   DesignHashMapTest.cpp
   SumRangeQueryImmutableTest.cpp
   SumRangeQueryImmutableTwoDTest.cpp
-  FindPivotIndexTest.cpp)
+  FindPivotIndexTest.cpp
+  ProductOfArrayExceptSelfTest.cpp)
 target_link_libraries(LeetCodeTests GTest::gtest_main easy medium)
 
 include(GoogleTest)
