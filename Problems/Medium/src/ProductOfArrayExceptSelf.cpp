@@ -1,12 +1,9 @@
 #include "ProductOfArrayExceptSelf.h"
 std::vector<int>
 Medium::ProductOfArrayExceptSelf::productExceptSelf(std::vector<int> &nums) {
-  std::vector<int> result;
-  std::vector<int> prefix;
-  std::vector<int> suffix;
-  result.resize(nums.size());
-  prefix.resize(nums.size());
-  suffix.resize(nums.size());
+  std::vector<int> result(nums.size());
+  std::vector<int> prefix(nums.size());
+  std::vector<int> suffix(nums.size());
 
   prefix[0] = 1;
   suffix[nums.size() - 1] = 1;
