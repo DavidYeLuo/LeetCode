@@ -53,5 +53,6 @@ cd build/bin
 | 146 | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/description/) |
 | 304 | Range Sum Query 2D - Immutable | [Link](https://leetcode.com/problems/range-sum-query-2d-immutable/description/) |
 | 238 | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/description/) |
+| 560 | Subarray Sum Equals K | [Link](https://leetcode.com/problems/subarray-sum-equals-k/description/) |
 
 ## Hard
