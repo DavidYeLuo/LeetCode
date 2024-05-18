@@ -11,3 +11,4 @@ project(app)
 
 add_subdirectory(Problems)
 add_subdirectory(Tests)
+add_subdirectory(TemplateGenerator)
