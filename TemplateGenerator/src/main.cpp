@@ -104,7 +104,7 @@ int main(int argc, char *argv[]) {
   std::ofstream fout_test;
   std::string testFilePath = TEST_PATH;
   std::string testTemplateFilePath = TEMPLATE_TEST_PATH;
-  testFilePath += "/" + leetCodeName + ".cpp";
+  testFilePath += "/" + leetCodeName + "Test.cpp";
   fin_test_template.open(testTemplateFilePath);
   assert(fin_test_template.is_open()); // Checks if template exists
   oss_test << fin_test_template.rdbuf();
