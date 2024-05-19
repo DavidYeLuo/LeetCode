@@ -1,0 +1,4 @@
+#include "@LEETCODENAME@.h"
+
+@DIFFICULTY@::@LEETCODENAME@::@LEETCODENAME@() {
+}
