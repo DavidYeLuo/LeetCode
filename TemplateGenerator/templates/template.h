@@ -1,9 +1,8 @@
 #pragma once
 
-namespace @difficulty@ {
-class @classname@ {
-  @constructor@() {
-    
-  }
-}
+namespace @DIFFICULTY@ {
+class @LEETCODENAME@ {
+public:
+  @LEETCODENAME@();
+};
 } // namespace

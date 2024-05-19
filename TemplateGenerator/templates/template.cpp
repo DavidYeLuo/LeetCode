@@ -1,4 +1,4 @@
-#include "@classname@.h"
+#include "@LEETCODENAME@.h"
 
-@difficulty@::@classname@::@constructor@() {
+@DIFFICULTY@::@LEETCODENAME@::@LEETCODENAME@() {
 }
