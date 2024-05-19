@@ -18,6 +18,9 @@ set(HARD_INCLUDE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/Problems/Hard/include)
 set(EASY_SRC_PATH ${CMAKE_CURRENT_SOURCE_DIR}/Problems/Easy/src)
 set(MEDIUM_SRC_PATH ${CMAKE_CURRENT_SOURCE_DIR}/Problems/Medium/src)
 set(HARD_SRC_PATH ${CMAKE_CURRENT_SOURCE_DIR}/Problems/Hard/src)
+set(TEMPLATE_TEST_PATH
+    ${CMAKE_CURRENT_SOURCE_DIR}/TemplateGenerator/templates/templatetest.cpp)
+set(TEST_PATH ${CMAKE_CURRENT_SOURCE_DIR}/Tests)
 
 project(app)
 
