@@ -10,4 +10,5 @@ target_sources(
           ${CMAKE_CURRENT_SOURCE_DIR}/src/DesignHashSet.cpp
           ${CMAKE_CURRENT_SOURCE_DIR}/src/DesignHashMap.cpp
           ${CMAKE_CURRENT_SOURCE_DIR}/src/SumRangeQueryImmutable.cpp
-          ${CMAKE_CURRENT_SOURCE_DIR}/src/FindPivotIndex.cpp)
+          ${CMAKE_CURRENT_SOURCE_DIR}/src/FindPivotIndex.cpp
+          ${CMAKE_CURRENT_SOURCE_DIR}/src/ValidAnagram.cpp)
