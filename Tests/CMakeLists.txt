@@ -24,7 +24,8 @@ add_executable(
   SumRangeQueryImmutableTwoDTest.cpp
   FindPivotIndexTest.cpp
   ProductOfArrayExceptSelfTest.cpp
-  SubarraySumEqualsKTest.cpp)
+  SubarraySumEqualsKTest.cpp
+  ValidAnagramTest.cpp)
 target_link_libraries(LeetCodeTests GTest::gtest_main easy medium)
 
 include(GoogleTest)
