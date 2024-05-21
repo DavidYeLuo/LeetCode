@@ -25,7 +25,8 @@ add_executable(
   FindPivotIndexTest.cpp
   ProductOfArrayExceptSelfTest.cpp
   SubarraySumEqualsKTest.cpp
-  ValidAnagramTest.cpp)
+  ValidAnagramTest.cpp
+  GroupAnagramsTest.cpp)
 target_link_libraries(LeetCodeTests GTest::gtest_main easy medium)
 
 include(GoogleTest)
