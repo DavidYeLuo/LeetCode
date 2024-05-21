@@ -2,8 +2,8 @@
 #include <gtest/gtest.h>
 namespace {
 TEST(ValidAnagram, SimpleTests) {
-  bool expected = true;
-  bool result = false;
-  ASSERT_EQ(expected, result);
-} // Test
+  Easy::ValidAnagram instance;
+  ASSERT_TRUE(instance.isAnagram("anagram", "nagaram"));
+  ASSERT_FALSE(instance.isAnagram("rat", "car"));
+}
 } // namespace
