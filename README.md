@@ -39,6 +39,7 @@ cd build/bin
 | ID | Problems | Link |
 |---|---|---|
 | 1 | Two Sum | [Link](https://leetcode.com/problems/two-sum/description/) |
+| 49 | Group Anagrams | [Link](https://leetcode.com/problems/group-anagrams/description/)
 | 217 | Contains Duplicate | [Link](https://leetcode.com/problems/contains-duplicate/description/) |
 | 242 | Valid Anagram | [Link](https://leetcode.com/problems/valid-anagram/description/) |
 | 303 | Range Sum Query - Immutable | [Link](leetcode.com/problems/range-sum-query-immutable)
