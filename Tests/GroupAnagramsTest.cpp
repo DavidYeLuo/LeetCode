@@ -11,8 +11,6 @@ TEST(GroupAnagrams, SimpleTests) {
 
   // Order doesn't matter so sorting will just help us test it
   auto ret = instance.groupAnagrams(input);
-  std::sort(expected.begin(), expected.end());
-  std::sort(ret.begin(), ret.end());
   for (auto &element : ret) {
     std::sort(element.begin(), element.end());
   }
@@ -21,8 +19,6 @@ TEST(GroupAnagrams, SimpleTests) {
   input = {""};
   expected = {{""}};
   ret = instance.groupAnagrams(input);
-  std::sort(expected.begin(), expected.end());
-  std::sort(ret.begin(), ret.end());
   for (auto &element : ret) {
     std::sort(element.begin(), element.end());
   }
@@ -30,8 +26,6 @@ TEST(GroupAnagrams, SimpleTests) {
   input = {"a"};
   expected = {{"a"}};
   ret = instance.groupAnagrams(input);
-  std::sort(expected.begin(), expected.end());
-  std::sort(ret.begin(), ret.end());
   for (auto &element : ret) {
     std::sort(element.begin(), element.end());
   }
