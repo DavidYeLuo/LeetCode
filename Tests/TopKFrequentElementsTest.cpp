@@ -13,5 +13,9 @@ TEST(TopKFrequentElements, SimpleTests) {
   expected = {1, 2};
   ASSERT_EQ(instance.topKFrequentElements(nums, k), expected);
 
+  nums = {1};
+  k = 1;
+  expected = {1};
+  ASSERT_EQ(instance.topKFrequentElements(nums, k), expected);
 } // Test
 } // namespace
