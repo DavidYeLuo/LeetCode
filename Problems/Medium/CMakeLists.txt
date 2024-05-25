@@ -8,4 +8,5 @@ target_sources(
           ${CMAKE_CURRENT_SOURCE_DIR}/src/SumRangeQueryImmutableTwoD.cpp
           ${CMAKE_CURRENT_SOURCE_DIR}/src/ProductOfArrayExceptSelf.cpp
           ${CMAKE_CURRENT_SOURCE_DIR}/src/SubarraySumEqualsK.cpp
+          ${CMAKE_CURRENT_SOURCE_DIR}/src/TopKFrequentElements.cpp
           ${CMAKE_CURRENT_SOURCE_DIR}/src/GroupAnagrams.cpp)

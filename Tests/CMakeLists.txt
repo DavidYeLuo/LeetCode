@@ -26,6 +26,7 @@ add_executable(
   ProductOfArrayExceptSelfTest.cpp
   SubarraySumEqualsKTest.cpp
   ValidAnagramTest.cpp
+  TopKFrequentElementsTest.cpp
   GroupAnagramsTest.cpp)
 target_link_libraries(LeetCodeTests GTest::gtest_main easy medium)
 
