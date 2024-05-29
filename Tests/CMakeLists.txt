@@ -28,7 +28,8 @@ add_executable(
   ValidAnagramTest.cpp
   TopKFrequentElementsTest.cpp
   GroupAnagramsTest.cpp
-  ValidSudokuTest.cpp)
+  ValidSudokuTest.cpp
+  LongestConsecutiveSequenceTest.cpp)
 target_link_libraries(LeetCodeTests GTest::gtest_main easy medium)
 
 include(GoogleTest)
