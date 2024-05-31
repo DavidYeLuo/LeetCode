@@ -54,6 +54,7 @@ cd build/bin
 | ID | Problems | Link |
 |---|---|---|
 | 36 | Valid Sudoku | [Link](https://leetcode.com/problems/valid-sudoku/description/) |
+| 128 | Longest Consecutive Sequence | [Link](https://leetcode.com/problems/longest-consecutive-sequence/description/) |
 | 146 | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/description/) |
 | 304 | Range Sum Query 2D - Immutable | [Link](https://leetcode.com/problems/range-sum-query-2d-immutable/description/) |
 | 238 | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/description/) |

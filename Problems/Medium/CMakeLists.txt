@@ -10,4 +10,5 @@ target_sources(
           ${CMAKE_CURRENT_SOURCE_DIR}/src/SubarraySumEqualsK.cpp
           ${CMAKE_CURRENT_SOURCE_DIR}/src/TopKFrequentElements.cpp
           ${CMAKE_CURRENT_SOURCE_DIR}/src/GroupAnagrams.cpp
-          ${CMAKE_CURRENT_SOURCE_DIR}/src/ValidSudoku.cpp)
+          ${CMAKE_CURRENT_SOURCE_DIR}/src/ValidSudoku.cpp
+          ${CMAKE_CURRENT_SOURCE_DIR}/src/LongestConsecutiveSequence.cpp)
