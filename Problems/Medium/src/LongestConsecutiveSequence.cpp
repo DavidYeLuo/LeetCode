@@ -1,34 +1,25 @@
 #include "LongestConsecutiveSequence.h"
-#include <unordered_map>
+
+#include <cstdio>
+#include <unordered_set>
 
 Medium::LongestConsecutiveSequence::LongestConsecutiveSequence() {}
 int Medium::LongestConsecutiveSequence::longestConsecutiveSequence(
     std::vector<int> &nums) {
-  if (nums.size() == 0)
-    return 0;
-  std::unordered_map<int, bool> m;
-  for (int i = 0; i < nums.size(); i++) {
-    m[nums[i]] = false;
-  }
-  int longest = 1;
-  for (int i = 0; i < nums.size(); i++) {
-    if (m[nums[i]] == true)
+  int longest = 0;
+  std::unordered_set<int> s(nums.begin(), nums.end());
+
+  for (const int &start : nums) {
+    if (s.count(start - 1) != 0) // Skip if start not found
       continue;
-
-    int current = 1;
-    for (int next_index = 1; m.find(nums[i] - next_index) != m.end();
-         next_index++) {
-      m[nums[i] - next_index] = true;
-      current++;
+    int index = start;
+    int count = 0;
+    while (s.count(index)) {
+      count++;
+      index++;
     }
-
-    for (int next_index = 1; m.find(nums[i] + next_index) != m.end();
-         next_index++) {
-      m[nums[i] + next_index] = true;
-      current++;
-    }
-    if (current > longest)
-      longest = current;
+    longest = std::max(count, longest);
   }
+
   return longest;
 }
