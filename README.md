@@ -44,6 +44,7 @@ cd build/bin
 | 242 | Valid Anagram | [Link](https://leetcode.com/problems/valid-anagram/description/) |
 | 303 | Range Sum Query - Immutable | [Link](leetcode.com/problems/range-sum-query-immutable)
 | 347 | Top K Frequent Elements | [Link](leetcode.com/problems/top-k-frequent-elements/description/)
+| 682 | Baseball Game | [Link](https://leetcode.com/problems/baseball-game/description/) |
 | 705 | Design HashSet | [Link](https://leetcode.com/problems/design-hashset/description/) |
 | 706 | Design HashMap | [Link](https://leetcode.com/problems/design-hashmap/description/) |
 | 724 | Find Pivot Index | [Link](https://leetcode.com/problems/find-pivot-index/description/) |
