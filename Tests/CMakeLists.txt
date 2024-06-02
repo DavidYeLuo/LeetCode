@@ -30,7 +30,8 @@ add_executable(
   GroupAnagramsTest.cpp
   ValidSudokuTest.cpp
   LongestConsecutiveSequenceTest.cpp
-  BaseballGameTest.cpp)
+  BaseballGameTest.cpp
+  ValidParenthesesTest.cpp)
 target_link_libraries(LeetCodeTests GTest::gtest_main easy medium)
 
 include(GoogleTest)
